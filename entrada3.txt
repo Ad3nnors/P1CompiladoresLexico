@@ -1,0 +1,17 @@
+: DECLARACOES
+x:REAL
+y:REAL
+
+:ALGORITMO
+LER x
+LER y
+SE (torque == 0 EMNTAO
+ATRIBUIR x + 1.0 A y
+ATRIBUIRx A destinoX
+ATRIBUIR y A destinoY
+ENQUANTO x - 2 < destinoX OU
+		y - 3 < destinoY
+	ATRIBUIR x + 1 A x
+
+FIM
+

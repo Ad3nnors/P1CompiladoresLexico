@@ -1,0 +1,14 @@
+: DECLARACOES
+x:REAL
+y:REAL
+z:REAL
+
+:ALGORITMO
+LER x
+LER y
+ATRIBUIR x + 1.0  A  y
+ATRIBUIR y + 1 A z
+ENQUANTO x - 2 < z OU
+		y - 3 < z
+	ATRIBUIR x + 1 A x
+FIM

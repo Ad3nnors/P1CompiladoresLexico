@@ -1,0 +1,11 @@
+:DECLARACOES
+azimute:INTEIRO
+torque:REAL
+
+:ALGORITMO
+LER azimute
+LER torque
+IMPRIMIR "a"
+IMPRIMIR "b"
+IMPRIMIR azimute
+IMPRIMIR torque
